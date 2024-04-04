@@ -14,7 +14,9 @@ struct ContentView: View {
         ZStack{
             
             
+            
             TabView {
+                
            
                 RedView()
                     .badge(1)
@@ -30,11 +32,19 @@ struct ContentView: View {
                     .badge(3)
                             .tabItem {
                                 Label("blue", systemImage: "tray.and.arrow.down.fill")
+                                
                             }
+                
                 } // fin de Tab View
-        }
+
+
+
+        } // fin zstack
+        
         // fin de Zstack
+        
     } // fin du body
+    
 } // fin du contentview struct
 
 #Preview {

@@ -17,7 +17,7 @@ struct greenView: View {
                 .foregroundStyle(.white)
             
         } // fin zstack
-        .ignoresSafeArea()
+        .edgesIgnoringSafeArea(.top)
 
         
         
