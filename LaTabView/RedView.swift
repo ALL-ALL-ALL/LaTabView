@@ -22,9 +22,10 @@ struct RedView: View {
             
                 .tabItem { Image(systemName: "r.circle")
                                 }// fin de tabItem 1
-        }
-    }
-}
+        } // fin zstack
+        .ignoresSafeArea()
+    } // fin body
+} // fin struct
 
 #Preview {
     RedView()

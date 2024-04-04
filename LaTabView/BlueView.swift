@@ -18,10 +18,12 @@ struct blueview: View {
             
             
             
-        }
+        } // fin zstack
+        .ignoresSafeArea()
+
        
-    }
-}
+    } // fin body
+} // fin struct
 
 #Preview {
     blueview()

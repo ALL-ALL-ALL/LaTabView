@@ -16,11 +16,13 @@ struct greenView: View {
                 .font(.largeTitle)
                 .foregroundStyle(.white)
             
-        }
+        } // fin zstack
+        .ignoresSafeArea()
+
         
         
-    }
-}
+    } // fin body
+} // fin struct
 
 #Preview {
     greenView()
